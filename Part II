@@ -1,0 +1,52 @@
+Assignment 1
+Part II
+5.
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Bank_Account
+{
+public:
+	void set_info(string x, string y , double z)
+	{
+		name = x;
+		account_no = y;
+		balance = z;
+	}
+	string get_info()
+	{
+		return name;
+		return account_no;
+		cout << "Current Balance=" << balance << "\n";
+	}
+	void deposite(double d)
+	{
+		balance = balance + d;
+	}
+	void withdraw(double w)
+	{
+		balance = balance - w;
+	}
+	int get_balance()
+	{
+		return balance;
+	}
+private:
+	string name;
+	string account_no;
+	double balance;
+
+};
+
+
+
+7. int main()
+{
+	Bank_Account b;
+	b.set_info("Jack", "250", 3000);
+	b.deposite(500);
+	b.get_balance;
+}
+
+
