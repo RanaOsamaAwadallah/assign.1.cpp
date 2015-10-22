@@ -1,0 +1,30 @@
+Assignment 1
+Part I
+1.	What is a class?
+A class is the collection of related data and function under a single name. A C++ program can have any number of classes. When related data and functions are kept under a class, it helps to visualize the complex problem efficiently and effectively.
+
+2.	How does a class accomplish abstraction, encapsulation, and data hiding?
+a.	Abstraction by using the private and public to how only “relevant” data and “hide” unnecessary details of an object from the user.
+b.	Encapsulation is the process of combining data and functions into a single unit called class. In Encapsulation, the data is not accessed directly; it is accessed through the functions present inside the class. In simpler words, attributes of the class are kept private and public getter and setter methods are provided to manipulate these attributes.
+c.	Data hiding by making data private to that class from user.
+
+3.	What is the relationship between an object and a class?
+A class defines the properties and behavior for the objects represented by the abstraction. A class thus denotes a category of objects and act as a blueprint for creating such objects. An object exhibits the property and behaviors defined by its class. Generally, an object is an instance of a class.
+
+4.	In what way, aside from being functions, are class function members different from class data members?
+Functions are used for grouping data 
+
+5.	In part II
+
+6.	When are class constructors called? When are class destructors called?
+a.	Class constructors are called when creating an object
+b.	Class destructors are called when an object goes out of scope if it is on the stack or when you call delete on a pointer to an object.
+7.	 In part II
+8.	What is a default constructor? What is the advantage of having one?
+A default constructor is a constructor that can be called without having to provide any arguments, irrespective of whether the constructor is auto-generated or user-defined.
+In C++, default constructors are significant because they are automatically invoked in certain circumstances; and therefore, in these circumstances, it is an error for a class to not have a default constructor. 
+
+
+ 
+9.	What are this and *this?
+The “this” pointer is an implicit parameter to all member functions. Therefore, inside a member function, this may be used to refer to the invoking object.
